@@ -45,6 +45,7 @@ footer{background-color: var(--main-bg-color);color: #fff;padding: 20px 0;text-a
         .intro h1{text-align: center;font-size: 1.8em;}
         .intro h3{text-align: center;font-weight: lighter;}
         .btn{margin: 0 auto}
+        .how-it-works .btn{margin: 20px 0;width: 200px;}
         .how-it-works h2{text-align: center;margin-top: 20px;}
         .how-it-works .bg{
         height: 50vh;
