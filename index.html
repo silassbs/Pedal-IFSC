@@ -31,8 +31,9 @@
     <meta property="og:image" content="img/favicon/apple-icon-144x144.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedal IFSC</title>
-    
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+
 </head>
 <body>
     <header>
@@ -61,7 +62,7 @@
                 <h1>Pedal IFSC</h1>
                 <h3>O projeto de bicicletas compartilhadas
                     de São Lourenço do Oeste.</h3>
-                <a href="#project" class="btn">Conheça o Projeto</a>
+                <a href="javacript:;" class="btn">Conheça o Projeto</a>
             </div>
             <div class="bg"></div>
         </div>
@@ -120,29 +121,5 @@
             @2020 - IFSC - São Lourenço do Oeste
         </div>
     </footer>
-
-    <script>
-        // Smooth Scroll
-        let scrollTo = (element) => {
-        window.scroll({
-            behavior: 'smooth',
-            left: 0,
-            top: element.offsetTop
-        });
-        console
-        }
-
-        document.getElementById("intro").addEventListener('click', () => {
-        scrollTo(document.getElementById("intro-anchor"));
-        });
-
-        document.getElementById("project").addEventListener('click', () => {
-        scrollTo(document.getElementById("project-anchor"));
-        });
-
-        document.getElementById("how-it-works").addEventListener('click', () => {
-        scrollTo(document.getElementById("how-it-works-anchor"));
-        });
-    </script>
 </body>
 </html>
