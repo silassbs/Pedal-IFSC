@@ -29,7 +29,7 @@ a:hover{text-decoration: underline;}
 .how-it-works > div{padding: 40px 0;display: flex;}
 .how-it-works .box-text{width: 50%;}
 .how-it-works .bg{background-image: url('img/app.png');width: 50%;background-size: contain;background-repeat: no-repeat;}
-.how-it-works h2{color: var(--main-color);}
+.how-it-works h2{color: var(--main-color);text-align: center;}
 .how-it-works ul li{margin: 40px 0;}
 .how-it-works ul li h3{font-size: 20px;color: #545454;}
 footer{background-color: var(--main-bg-color);color: #fff;padding: 20px 0;text-align: center;font-size: 12px;}
