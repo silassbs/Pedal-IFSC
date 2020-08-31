@@ -1,4 +1,4 @@
-*{font-family: sans-serif;padding: 0;margin: 0;list-style: none;}
+*{font-family: sans-serif;padding: 0;margin: 0;list-style: none;font-weight: lighter;}
 :root{
     --main-bg-color: #2B6253;
     --main-color: #098419;
@@ -16,7 +16,7 @@ a{color: var(--white);text-decoration: none;transition: all .3s;}
 a:hover{text-decoration: underline;}
 .intro{background-color: var(--greybg);}
 .intro h1{color: var(--main-color);font-size: 45px;}
-.intro h3{font-size: 20px;margin: 20px 0;color: #545454;}
+.intro h3{font-size: 20px;margin: 20px 0;color: #545454;font-weight: lighter;}
 .intro > div{display: flex;}
 .intro .box-text{display: flex;flex-direction: column;justify-content: center;}
 .intro .bg{background-image: url('img/mainbg1.png');height: 100vh;width: 100%;background-position: center;background-size: 60%;background-repeat: no-repeat;}
